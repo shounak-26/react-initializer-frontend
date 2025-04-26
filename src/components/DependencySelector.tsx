@@ -17,7 +17,6 @@ const availableDependencies = [
   { value: "react-toastify", label: "React Toastify" },
   { value: "jest", label: "Jest" },
   { value: "@testing-library/react", label: "Testing Library React" },
-  { value: "tailwindcss", label: "Tailwind CSS" },
   { value: "@mui/material", label: "Material-UI" },
   { value: "styled-components", label: "Styled Components" },
   { value: "@tanstack/react-query", label: "React Query" },

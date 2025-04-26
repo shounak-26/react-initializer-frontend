@@ -5,7 +5,6 @@ import DependencySelector from "../components/DependencySelector";
 import ReactVersionSelector from "../components/SpringBootVersionSelector";
 import ProjectMetadata from "../components/ProjectMetadata";
 import PackagingSelector from "../components/PackagingSelector";
-import NodeVersionSelector from "../components/NodeVersionSelector";
 import ButtonBar from "../components/ButtonBar";
 import ToastContainerWrapper from "../components/ToastContainerWrapper";
 
@@ -45,10 +44,9 @@ const Home: React.FC = () => {
       {/* Header */}
       <header className="bg-gray-800 p-4 text-center relative">
         <div className="flex items-center justify-center">
-          <img src="/assets/react.svg" alt="React Logo" className="w-8 h-8 mr-2 text-purple-400" />
+          <img src="react.svg" alt="React Logo" className="w-8 h-8 mr-2 text-purple-400" />
           <h1 className="text-xl font-bold text-white">React Initializer</h1>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-1 bg-purple-500"></div>
       </header>
 
       {/* Main Content */}
@@ -71,7 +69,6 @@ const Home: React.FC = () => {
             setVersion={setVersion}
           />
           <PackagingSelector packaging={packaging} setPackaging={setPackaging} />
-          <NodeVersionSelector nodeVersion={nodeVersion} setNodeVersion={setNodeVersion} />
         </div>
 
         {/* Right Panel */}
