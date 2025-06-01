@@ -20,8 +20,6 @@ const Home: React.FC = () => {
   const [license, setLicense] = useState("MIT");
   const [version, setVersion] = useState("1.0.0");
   const [packaging, setPackaging] = useState("development");
-  const [nodeVersion, setNodeVersion] = useState("20");
-
   const formData = {
     framework,
     language,
