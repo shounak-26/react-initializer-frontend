@@ -89,9 +89,6 @@ const ButtonBar: React.FC<ButtonBarProps> = ({ formData }) => {
     }
   };
 
-  const handleExplore = () => {
-    toast.info("Explore functionality not implemented yet.");
-  };
 
   return (
     <div className="flex flex-col items-center space-y-4">
