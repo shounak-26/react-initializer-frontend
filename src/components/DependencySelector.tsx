@@ -64,7 +64,7 @@ const DependencySelector: React.FC<DependencySelectorProps> = ({ dependencies, s
         <Select
           options={availableDependencies}
           onChange={handleAddDependency}
-          placeholder="Add dependencies... Ctrl + B"
+          placeholder="Add dependencies..."
           className="text-black w-full"
           classNamePrefix="select"
           styles={{

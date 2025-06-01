@@ -130,14 +130,7 @@ const ButtonBar: React.FC<ButtonBarProps> = ({ formData }) => {
           className="bg-gray-800 text-white px-4 py-2 rounded border border-gray-600 hover:bg-gray-700 disabled:opacity-50"
           disabled={isGenerating}
         >
-          GENERATE Ctrl + ⏎
-        </button>
-        <button
-          onClick={handleExplore}
-          className="bg-gray-800 text-white px-4 py-2 rounded border border-gray-600 hover:bg-gray-700 disabled:opacity-50"
-          disabled={isGenerating}
-        >
-          EXPLORE Ctrl + Space
+          GENERATE
         </button>
       </div>
     </div>
