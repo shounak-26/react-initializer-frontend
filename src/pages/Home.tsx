@@ -7,6 +7,7 @@ import ProjectMetadata from "../components/ProjectMetadata";
 import PackagingSelector from "../components/PackagingSelector";
 import ButtonBar from "../components/ButtonBar";
 import ToastContainerWrapper from "../components/ToastContainerWrapper";
+import Footer from "../components/Footer";
 
 const Home: React.FC = () => {
   const [framework, setFramework] = useState("vite");
@@ -84,7 +85,9 @@ const Home: React.FC = () => {
       <div className="p-6 flex justify-center">
         <ButtonBar formData={formData} />
       </div>
+      <Footer/>
     </div>
+    
   );
 };
 
